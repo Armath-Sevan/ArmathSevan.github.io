@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: "ArmBoloragirItalic";
+}
+
+
+nav{
+    height: 45px;  
+    width: 100%;  
+    background:#303030;  
+    font-size: 11pt;  
+    font-family: ArmBoloragirItalic;  
+    font-weight: 500;  
+    position: relative;  
+    border-bottom: 2px solid #283744;  
+}  
+nav ul {  
+    padding: 0;  
+    margin: 0 auto;  
+    width: 100%;  
+    height: 45px;  
+}  
+
+nav li {  
+    display: inline;  
+    float: left;  
+}  
+
+.menu:before,  
+.menu:after {  
+    content: " ";  
+    display: table;  
+}  
+.menu:after {  
+    clear: both;  
+}  
+.menu {  
+    *zoom: 1;  
+}  
+
+nav a {  
+    color: #fff;  
+    display: inline-block;   
+    text-align: center;  
+    padding: 1px 16px;
+    text-decoration: none;  
+    line-height: 45px;  
+    text-shadow: 1px 1px 0px #283744;  
+}  
+nav li a {  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+nav li:last-child a {  
+    border-right: 0;  
+}  
+
+nav a:hover, nav a:active {  
+        background-color: #971578;
+        color: #fff;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+}  
+
+nav a#pull {  
+    display: none;  
+} 
+    .menu-logo{
+    float: right;
+    height: 35px;
+}
+
+.info{
+    margin: auto;
+    padding: 10px;
+    height: 800px;  
+    background-size: cover;
+    background-position:center;
+    background-image: url('img/bgi.jpg');
+}
+
+.brbr{
+ color: white;
+ font-size: 2.76vh;
+ text-align: center;
+ padding-top: 16%;
+}
+
+@font-face {
+font-family: "ArmBoloragirItalic"; 
+src: url("fonts/ArmBoloragirItalic.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
